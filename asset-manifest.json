@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/viancamaulion/ClockApp-ReactJS.git/static/css/main.4b01c6ee.css",
-    "main.js": "/viancamaulion/ClockApp-ReactJS.git/static/js/main.23baf318.js",
-    "static/js/787.688fdb83.chunk.js": "/viancamaulion/ClockApp-ReactJS.git/static/js/787.688fdb83.chunk.js",
-    "static/media/imgClock.png": "/viancamaulion/ClockApp-ReactJS.git/static/media/imgClock.a1588e944a8837898511.png",
-    "static/media/imgCloud.png": "/viancamaulion/ClockApp-ReactJS.git/static/media/imgCloud.488cd321e1307b96240d.png",
-    "index.html": "/viancamaulion/ClockApp-ReactJS.git/index.html",
-    "main.4b01c6ee.css.map": "/viancamaulion/ClockApp-ReactJS.git/static/css/main.4b01c6ee.css.map",
-    "main.23baf318.js.map": "/viancamaulion/ClockApp-ReactJS.git/static/js/main.23baf318.js.map",
-    "787.688fdb83.chunk.js.map": "/viancamaulion/ClockApp-ReactJS.git/static/js/787.688fdb83.chunk.js.map"
+    "main.css": "/ClockApp-ReactJS/static/css/main.4b01c6ee.css",
+    "main.js": "/ClockApp-ReactJS/static/js/main.fa03fe51.js",
+    "static/js/787.688fdb83.chunk.js": "/ClockApp-ReactJS/static/js/787.688fdb83.chunk.js",
+    "static/media/imgClock.png": "/ClockApp-ReactJS/static/media/imgClock.a1588e944a8837898511.png",
+    "static/media/imgCloud.png": "/ClockApp-ReactJS/static/media/imgCloud.488cd321e1307b96240d.png",
+    "index.html": "/ClockApp-ReactJS/index.html",
+    "main.4b01c6ee.css.map": "/ClockApp-ReactJS/static/css/main.4b01c6ee.css.map",
+    "main.fa03fe51.js.map": "/ClockApp-ReactJS/static/js/main.fa03fe51.js.map",
+    "787.688fdb83.chunk.js.map": "/ClockApp-ReactJS/static/js/787.688fdb83.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b01c6ee.css",
-    "static/js/main.23baf318.js"
+    "static/js/main.fa03fe51.js"
   ]
 }
