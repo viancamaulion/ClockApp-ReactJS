@@ -1,13 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins&family=Roboto:wght@100&family=Tilt+Neon&display=swap');
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+  text-align: center;
+  font-family: 'Poppins', cursive;
+  background-color: #97bdfe;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card{
+  background-color: white;
+  margin: -120px auto;
+  width: 600px;
+  height: 700px;
+  padding: 55px 10px;
+  border-radius: 20px;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
 }
+
+.datetime{
+  display: table-column;
+  column-gap: 20px;
+}
+
+table{
+  margin: auto;
+  margin-top: -20px;
+}
+table p{
+  text-align: center;
+  font-weight: 100;
+}
+
+h4{
+  margin-bottom: 5px;
+  font-style: ;
+}
+h5{
+  margin-top: -20px;
+}
+h1{
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+#time{
+  width: 300px;
+  height: 15px;
+  padding: 15px 40px 24px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  margin: auto;
+}
+#duration{
+  width: 300px;
+  height: 15px;
+  padding: 1px 40px 40px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  margin: auto auto -0px;
+}
+
+.cardDuration{
+  margin-top: -250px;
+}
+
+.duration{
+  margin-top: -200px;
+}
+button{
+  margin: 20px 5px;
+  margin-bottom: 0px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  font-style: bold;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  border-radius: 18px;
+  width: 150px;
+  
+}
+
+button:hover{
+  background-color: white;
+  color: #2b2d42;
+  transition: 0.1s;
+}
+
+.btn-duration{
+  margin-top: 20px;
+}
+
+#timein{
+  background-color: #4ea8de;
+}
+#timein:hover{
+  background-color: #a3c4f3;
+}
+
+#timeout{
+  background-color: #5e60ce;
+}
+#timeout:hover{
+  background-color: #a3c4f3;
+}
+#reset{
+  background-color: white;
+  color: black;
+  border: solid black 1px;
+  transition: 0.1s;
+  margin-top: 10px;
+  width: 300px;
+}
+
+#reset:hover{ 
+  background-color: #fd6357;
+  color: white;
+  transition: 0.1s;
+}
+
+#imgClock{
+  height: 200px;
+  margin-left: -450px;
+
+}
+#imgCloud{
+  height: 300px;
+  margin-left: 200px;
+  margin-top: 0px;
+}
+#imgCloud2{
+  height: 300px;
+  margin-left: -800px;
+  margin-top: -200px;
+}
+
+

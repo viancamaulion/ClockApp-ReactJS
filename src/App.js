@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import Clock from './components/Clock';
+import Duration from './components/Duration';
+import imgClock from './images/imgClock.png';
+import imgCloud from './images/imgCloud.png';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <img src={imgCloud} id='imgCloud' className='logo' alt=''/>       
+        <img src={imgClock} id='imgClock' className='logo' alt=''/>
+        <Clock/>
+        <Duration/>
+        <br/>
+        <img src={imgCloud} id='imgCloud2' className='logo' alt=''/>       
+   
     </div>
   );
 }
