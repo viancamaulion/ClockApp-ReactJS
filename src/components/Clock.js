@@ -60,16 +60,18 @@ class Clock extends React.Component {
           <h4>Time out: </h4>
           <p id="time">{this.state.timeOut}</p>
 
-          <button id="timein" className="stop" onClick={this.btnTimeIn}>
-            Time in
-          </button>
-          <button id="timeout" className="stop" onClick={this.btnTimeOut}>
-            Time out
-          </button>
-          <br />
-          <button id="reset" onClick={this.btnReset}>
-            Reset
-          </button>
+          <div className="buttons">
+            <button id="timein" className="stop" onClick={this.btnTimeIn}>
+              Time in
+            </button>
+            <button id="timeout" className="stop" onClick={this.btnTimeOut}>
+              Time out
+            </button>
+            <br />
+            <button id="reset" onClick={this.btnReset}>
+              Reset
+            </button>
+          </div>
         </div>
       </div>
     );
