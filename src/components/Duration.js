@@ -1,32 +1,34 @@
 import React, { useEffect, useState } from 'react';
 
-const Timer = () => {
-    const [time, setTime] = useState(0);
-    const [startTimer, setStartTimer] = useState(false);
-    
-    useEffect(() => {
+const Timer = ({ isTimerRunning, resetTimer }) => {
+  const [time, setTime] = useState(0);
 
+  useEffect(() => {
+    if (isTimerRunning) {
+      const timerId = setInterval(() => {
+        setTime((t) => t + 1);
+      }, 1000);
+      return () => clearInterval(timerId);
+    } else {
+      const timerId = setInterval(() => {
+        setTime((t) => t);
+      });
+      return () => clearInterval(timerId);
+    }
+  }, [isTimerRunning]);
 
-        if(startTimer){
-          const timerId = setInterval(() => {
-            setTime(t => t + 1)
-          }, 1000);
-         return () => clearInterval(timerId)
-        }
-      }, [startTimer])
+  useEffect(() => {
+    if (resetTimer) {
+      setTime(0);
+    }
+  });
 
-    return(
-        <div className='cardDuration'>
-            <h4>Total Time Worked: </h4>
-            <p id='time'>{time}s</p>
-            <button id = 'timein' className='btn-duration'  onClick={(
-            ) => setStartTimer(true)}> Start Timer </button>
-            <button id = 'timeout' className='btn-duration' onClick={() => setStartTimer(false)}> Stop timer </button>
-            <br/><button id='reset' onClick={() => setTime(t=>0)}>Reset</button>
-        </div>
-    )
-
-}
-
+  return (
+    <div className="cardDuration">
+      <h4>Total Time Worked: </h4>
+      <p id="time">{time}s</p>
+    </div>
+  );
+};
 
 export default Timer;
