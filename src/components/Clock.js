@@ -50,11 +50,7 @@ class Clock extends React.Component {
 
           <table className="date-time">
             <th>
-              <p id="date">{this.state.time.toLocaleDateString()} -- </p>
-            </th>
-
-            <th>
-              <p id="clock">{this.state.time.toLocaleTimeString()}</p>
+              <p id="date">{this.state.time.toLocaleDateString()} </p>
             </th>
           </table>
 
